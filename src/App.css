@@ -1,0 +1,66 @@
+.App {
+  max-width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: #1f1f1f;
+  background-image: url("https://images.unsplash.com/photo-1542430816-ede4cbd1c0ee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=600&q=60?raw=true");
+  background-size: cover;
+  background-position: center;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  text-shadow: 2px 2px 4px rgb(240, 228, 47);
+  color: rgb(253, 253, 253);
+}
+
+
+img {
+  height: 50%;
+  margin-top: 1rem;
+}
+
+.text1,
+.text3 {
+  width: 100%;
+  height: 3rem;
+  background: gold;
+  border-radius: .25rem;
+  color: #1f1f1f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+  margin-top: -.5rem;
+}
+
+h3,
+.text2 {
+  color: rgb(136, 18, 248);
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+h3 {
+  margin-top: -1rem;
+}
+
+@media ((min-width: 768px)) {
+  .App {
+    max-width: 20%;
+    font-size: .75rem;
+  }
+
+  h3,
+  .text2 {
+    font-size: 1rem;
+  }
+
+}
