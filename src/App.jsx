@@ -39,15 +39,14 @@ export function App() {
   return (
     <div className="App">
       <h1>Feliz Aniversário!</h1>
-      <span className="text1">Este é um presente especial para você,</span>
-      <span className="text1 text2">Bárbara</span>
-      <span className="text1">que é fã dos Cavaleiros do Zodíaco.</span>
+      <div className="container">
+        <span className="text1">Este é um presente especial para você,</span>
+        <span className="text1 text2">Bárbara</span>
+        <span className="text1">que é fã dos Cavaleiros do Zodíaco.</span>
+      </div>
       <img src={avatar} title={description} alt={name} />
       <h3>{name}</h3>
       <span className="text3">Que você tenha um ano maravilhoso.</span>
     </div>
   );
 }
-
-
-
